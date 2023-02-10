@@ -1,0 +1,61 @@
+:root{
+    --spaceXXL: 48px;
+    --spaceXL: 32px;
+    --spaceLG: 24px;
+    --spaceMD: 26px;
+    --spaceSM: 8px;
+    --spaceXS: 4px;
+
+    --roundXXL: 80px;
+    --roundXL: 64px;
+    --roundLG: 48px;
+    --roundMD: 16px;
+    --roundSM: 8px;
+    --roundXS: 4px;
+}
+
+
+
+:root{
+
+    --xxl: 36px;
+    --xl: 30px;
+    --lg: 24px;
+    --md: 18px;
+    --sm: 16px;
+
+
+    --bold: 700;
+    --semiBold: 600;
+    --medium: 500;
+    --regular: 400;
+    --light: 300;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, p{
+    color: #1b4639;
+    text-transform: lowercase;
+}
+
+h1{
+    font-size: var(--xxl);
+    font-weight: var(--bold);
+}
+h2{
+    font-size: var(--xl);
+    font-weight: var(--semiBold);
+}
+h3{
+    font-size: var(--lg);
+    font-weight: var(--light);
+}
+h4{
+    font-size: var(--md);
+    font-weight: var(--medium);
+}
+p{
+    font-size: var(--sm);
+    font-weight: var(--regular);
+}

@@ -1,0 +1,7 @@
+#footer{
+    background-color: white;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+    border-radius: var(--roundXL) var(--roundXL) 0 0;
+    position: relative;
+    z-index: 50;
+}

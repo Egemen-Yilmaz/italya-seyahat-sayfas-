@@ -1,0 +1,15 @@
+a:link, a:visited{
+    color: #1b4639;
+    padding: var(--spaceXS) var(--spaceMD);
+    text-decoration: none;
+    background-color: #a6e3e6;
+    transform: scale(1);
+    border-radius: var(--roundMD);
+    text-align: left;
+    text-transform: lowercase;
+}
+a:hover, a:active{
+    color: #edf8f5;
+    background-color: #1f737a;
+    transform: scale(1.1);
+}

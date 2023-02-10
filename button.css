@@ -1,0 +1,24 @@
+button{
+    background-color: #ee6730;
+    color: #edf8f5;
+    outline: none;
+    border: none;
+    padding: var(--spaceSM) var(--spaceMD);
+    cursor: pointer;
+    border-radius: var(--roundMD);
+    font-weight: var(--bold);
+    transform: scale(1);
+    text-transform: lowercase;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: #fca16f;
+    color: #1b4639;
+
+}
+
+@media (max-width:576px){
+    button{
+        width: 100%;
+    }
+}
